@@ -5746,6 +5746,15 @@ msgid ""
 "Maximum number of characters to allow in user description field in header."
 msgstr ""
 
+#: um-config.php:1630
+msgid "User description maximum words"
+msgstr ""
+
+#: um-config.php:1632
+msgid ""
+"Maximum number of words to allow in user description field in header."
+msgstr ""
+
 #: um-config.php:1639
 msgid "Profile Header Menu Position"
 msgstr ""

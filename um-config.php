@@ -1633,6 +1633,16 @@ $this->sections[] = array(
 				'required'		=> array( 'profile_show_bio', '=', 1 ),
         ),
 
+
+        array(
+                'id'       		=> 'profile_bio_max_words',
+                'type'     		=> 'text',
+                'title'    		=> __( 'User description maximum words','ultimatemember' ),
+                'default'  		=> um_get_metadefault('profile_bio_max_words'),
+				'desc' 	   		=> __('Maximum number of words to allow in user description field in header.','ultimatemember'),
+				'required'		=> array( 'profile_show_bio', '=', 1 ),
+        ),
+
         array(
                 'id'       		=> 'profile_header_menu',
                 'type'     		=> 'select',

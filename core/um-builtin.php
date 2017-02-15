@@ -674,7 +674,7 @@ class UM_Builtin {
 				'required' => 0,
 				'public' => 1,
 				'editable' => 1,
-				'max_words' => 40,
+				'max_words' => ( um_get_option('profile_bio_max_words') ) ? um_get_option('profile_bio_maxchars_max_words') : 40,
 				'placeholder' => 'Enter a bit about yourself...',
 			),
 			
